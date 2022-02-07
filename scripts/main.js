@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'https://imgur.com/k5bRmkt.png') {
-      myImage.setAttribute('src','https://imgur.com/rtyBVJr.png');
+    if(mySrc === 'images/firefox-icon.png') {
+      myImage.setAttribute('src','images/chrome-icon.png');
     } else {
-      myImage.setAttribute('src','https://imgur.com/k5bRmkt.png');
+      myImage.setAttribute('src','images/firefox-icon.png');
     }
 }
 
